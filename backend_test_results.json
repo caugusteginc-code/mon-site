@@ -1,0 +1,112 @@
+[
+  {
+    "test": "API Root",
+    "success": true,
+    "details": "Status: 200, Message reçu",
+    "timestamp": "2025-08-15T22:53:36.423660",
+    "response_data": {
+      "message": "CAUGUSTEG Inc. API - Votre partenaire informatique de confiance"
+    }
+  },
+  {
+    "test": "Contact Form Valid",
+    "success": true,
+    "details": "Ticket généré: MSG-2F64816F1",
+    "timestamp": "2025-08-15T22:53:36.446853",
+    "response_data": {
+      "success": true,
+      "message": "Votre message a été envoyé avec succès ! Nous vous répondrons rapidement.",
+      "ticketNumber": "MSG-2F64816F1",
+      "timestamp": "2025-08-15T22:53:36.442791"
+    }
+  },
+  {
+    "test": "Contact Invalid Email",
+    "success": true,
+    "details": "Validation email correctement rejetée",
+    "timestamp": "2025-08-15T22:53:36.457554",
+    "response_data": null
+  },
+  {
+    "test": "Contact Missing Fields",
+    "success": true,
+    "details": "Champs manquants correctement rejetés",
+    "timestamp": "2025-08-15T22:53:36.464227",
+    "response_data": null
+  },
+  {
+    "test": "Quote Form Valid",
+    "success": true,
+    "details": "Référence générée: DEV-57AF32C19",
+    "timestamp": "2025-08-15T22:53:36.513766",
+    "response_data": {
+      "success": true,
+      "message": "Votre demande de devis a été envoyée avec succès ! Nous vous contacterons dans les 24-48h.",
+      "referenceNumber": "DEV-57AF32C19",
+      "timestamp": "2025-08-15T22:53:36.469449"
+    }
+  },
+  {
+    "test": "Quote Invalid Services",
+    "success": true,
+    "details": "Services vides correctement rejetés",
+    "timestamp": "2025-08-15T22:53:36.561697",
+    "response_data": null
+  },
+  {
+    "test": "Quote Invalid Client Type",
+    "success": true,
+    "details": "Type client invalide correctement rejeté",
+    "timestamp": "2025-08-15T22:53:36.569383",
+    "response_data": null
+  },
+  {
+    "test": "Quote Invalid Priority",
+    "success": true,
+    "details": "Priorité invalide correctement rejetée",
+    "timestamp": "2025-08-15T22:53:36.619123",
+    "response_data": null
+  },
+  {
+    "test": "Phone Format 5141234567",
+    "success": true,
+    "details": "Formatage accepté: 5141234567 -> (514) 123-4567",
+    "timestamp": "2025-08-15T22:53:36.668821",
+    "response_data": null
+  },
+  {
+    "test": "Phone Format 514-123-4567",
+    "success": true,
+    "details": "Formatage accepté: 514-123-4567 -> (514) 123-4567",
+    "timestamp": "2025-08-15T22:53:36.677472",
+    "response_data": null
+  },
+  {
+    "test": "Phone Format (514) 123-4567",
+    "success": true,
+    "details": "Formatage accepté: (514) 123-4567 -> (514) 123-4567",
+    "timestamp": "2025-08-15T22:53:36.728000",
+    "response_data": null
+  },
+  {
+    "test": "Phone Format 514 123 4567",
+    "success": true,
+    "details": "Formatage accepté: 514 123 4567 -> (514) 123-4567",
+    "timestamp": "2025-08-15T22:53:36.737133",
+    "response_data": null
+  },
+  {
+    "test": "Database Connectivity",
+    "success": true,
+    "details": "Base de données accessible via API",
+    "timestamp": "2025-08-15T22:53:36.785687",
+    "response_data": null
+  },
+  {
+    "test": "Error Handling JSON",
+    "success": true,
+    "details": "JSON malformé correctement rejeté",
+    "timestamp": "2025-08-15T22:53:36.791562",
+    "response_data": null
+  }
+]
